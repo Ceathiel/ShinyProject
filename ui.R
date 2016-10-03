@@ -20,6 +20,8 @@ shinyUI(fluidPage(
       showing the miles per gallon based on chosen year and vehicle type."),
      
   h5("By default, Year 2010 data for cars are displayed. You may modify the plot using the controls on the sidebar."),
+  
+  h5("Code for this application may be found in https://github.com/Ceathiel/ShinyProject/tree/master"),
 
   # Sidebar 
   sidebarLayout(
