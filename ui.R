@@ -16,7 +16,7 @@ shinyUI(fluidPage(
   # Application title
   titlePanel("Fuel Economy for Different Vehicle Types"),
   
-  h5("This application using the FuelEconomy dataset in Applied Predictive Modeling Package to create a box plot 
+  h5("This application uses the FuelEconomy dataset in Applied Predictive Modeling Package to create a box plot 
       showing the miles per gallon based on chosen year and vehicle type."),
      
   h5("By default, Year 2010 data for cars are displayed. You may modify the plot using the controls on the sidebar."),
@@ -36,7 +36,7 @@ shinyUI(fluidPage(
                     "Car" = "Cars",
                     "Pickup Truck"= "PickupTruck",
                     "Station Wagon" = "SmallStationWagons",
-                    "SpecialPurposeVehicle" = "SpecialPurposeVehicle",
+                    "Special Purpose Vehicle" = "SpecialPurposeVehicle",
                     "Van" = "Van",
                     "Other" = "Other"),
                   selected = c("Car" = "Car"))
